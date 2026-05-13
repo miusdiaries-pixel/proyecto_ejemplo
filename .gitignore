@@ -1,0 +1,15 @@
+# Dependencias
+/vendor/
+/node_modules/
+
+# Variables de entorno (seguridad)
+.env
+.env.*
+
+# Archivos de caché y logs
+/cache/
+/tmp/
+*.log
+
+# Configuración del editor
+.vscode/
