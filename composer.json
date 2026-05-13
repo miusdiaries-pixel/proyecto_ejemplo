@@ -1,0 +1,12 @@
+{
+    "name": "emi/proyecto-ejemplo",
+    "description": "Proyecto siguiendo estándares PSR y MVC",
+    "autoload": {
+    "psr-4": {
+        "App\\": "src/"
+    }
+},
+    "require": {
+        "php": ">=8.0"
+    }
+}
