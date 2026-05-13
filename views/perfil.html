@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Usuario</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; }
+        h1 { color: #333; font-size: 1.5em; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Perfil del Sistema</h1>
+        <p><strong>Nombre:</strong> <?php echo $data['nombre']; ?></p>
+        <p><strong>Rol:</strong> <?php echo $data['rol']; ?></p>
+        <p><strong>Estado:</strong> <?php echo $data['estado']; ?></p>
+    </div>
+</body>
+</html>
